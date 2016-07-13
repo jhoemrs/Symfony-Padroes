@@ -74,9 +74,9 @@ assetic:
         jquery:
             inputs:
                 - '%kernel.root_dir%/../vendor/components/jquery/jquery.min.js'
-        bootstrap_css:
+        materialize_css:
             inputs:
-                - '%kernel.root_dir%/../vendor/twbs/bootstrap/dist/css/bootstrap.min.css'
-        bootstrap_js:
+                - '%kernel.root_dir%/../vendor/materialize/css/css/materialize.min.css'
+        materialize_js:
             inputs:
-                - '%kernel.root_dir%/../vendor/twbs/bootstrap/dist/js/bootstrap.min.js'
+                - '%kernel.root_dir%/../vendor/materialize/css/js/materialize.min.js'
