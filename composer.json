@@ -11,6 +11,24 @@
             "app/AppCache.php"
         ]
     },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "version": "2.0",
+                "name": "materialize/css",
+                "source": {
+                    "url": "https://github.com/jhoemrs/materializeSymfony.git",
+                    "type": "git",
+                    "reference": "master"
+                },
+                "dist": {
+                    "url": "https://github.com/jhoemrs/materializeSymfony/zipball/master",
+                    "type": "zip"
+                }
+            }
+        }
+    ],
     "require": {
         "php": ">=5.3.9",
         "symfony/symfony": "2.8.*",
@@ -23,7 +41,7 @@
         "incenteev/composer-parameter-handler": "~2.0",
         "symfony/assetic-bundle": "^2.8",
         "components/jquery": "^3.0",
-        "twbs/bootstrap": "^3.3"
+        "materialize/css": "*"
     },
     "require-dev": {
         "sensio/generator-bundle": "~3.0",
